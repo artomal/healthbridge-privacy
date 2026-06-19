@@ -22,7 +22,7 @@
 </head>
 <body>
   <h1>HealthBridge — Privacy Policy</h1>
-  <p class="meta">Last updated: 10 June 2026</p>
+  <p class="meta">Last updated: 18 June 2026</p>
 
   <p>
     HealthBridge ("the app") is a personal health-data bridge: it imports the
@@ -72,7 +72,30 @@
     Data obtained through Google APIs is used solely to provide the app's
     user-facing feature — writing your health data into Apple Health on your
     device — and is never transferred to third parties, used for advertising,
-    or read by humans.
+    used to train AI or machine-learning models, or read by humans.
+  </p>
+
+  <h2>How we protect your data</h2>
+  <p>
+    Your health data is processed entirely on your device and is never sent to
+    our servers, so there is no central store of your data for anyone to breach.
+    The OAuth access token used to read from your provider is stored in the
+    iOS Keychain on your device only, and all communication with the provider's
+    APIs happens over encrypted HTTPS/TLS connections. We never see your provider
+    password, and the optional anonymous diagnostics are transmitted without any
+    information that could identify you.
+  </p>
+
+  <h2>Data retention &amp; deletion</h2>
+  <p>
+    Because your health data stays on your device, we do not retain it — there is
+    nothing for us to delete on our side. The OAuth access token is kept on your
+    device for as long as the app stays connected to your provider; it is removed
+    immediately when you disconnect the provider within the app or delete the app
+    from your device. The optional anonymous diagnostics are not linked to your
+    identity and therefore cannot be associated with, or deleted for, an individual
+    user; you can stop sending them at any time in
+    <em>Settings → Privacy → Share Anonymous Diagnostics</em>.
   </p>
 
   <h2>Purchases</h2>
